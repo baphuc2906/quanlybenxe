@@ -6,7 +6,7 @@
 
 <h1>@ViewData["Title"]</h1>
 
-<div class="row">
+@*<div class="row">
     <div class="col-md-4">
         <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
             <h4>Create a new account.</h4>
@@ -30,8 +30,54 @@
             <button type="submit" class="btn btn-primary">Register</button>
         </form>
     </div>
-</div>
+</div>*@
+<div class="wrap-admin">
+    <div class="opacity-background">
 
+    </div>
+    <div class="login-block">
+        <h3 class="login-title">Create a new account</h3>
+        <div class="form-group" id="account" method="post">
+            <section>
+                <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                    <div asp-validation-summary="All" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Input.User" style="color:white!important;"></label>
+                        <input asp-for="Input.User" class="form-control" />
+
+                        @*<div class="input-group-prepend">
+                <span class="input-group-text"><i class="fas fa-user"></i></span>
+            </div>*@
+                        <span asp-validation-for="Input.User" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Input.Password" style="color:white!important;"></label>
+                        <input asp-for="Input.Password" class="form-control" />
+                        @* <input type="password" class="form-control" name="" id="" placeholder="password" asp-for="Input.Password">*@
+                        @*<div class="input-group-prepend">
+                <span class="input-group-text"><i class="fas fa-key"></i></span>
+            </div>*@
+                        <span asp-validation-for="Input.Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Input.ConfirmPassword" style="color:white!important;"></label>
+                        <input asp-for="Input.ConfirmPassword" class="form-control" />
+                        <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                    </div>
+                    @*<button type="submit" class="btn btn-primary">Register</button>*@
+                    <div class="form-group" style="padding:20px 20px;">
+                        <input type="submit" value="Register" class="btn float-right login_btn">
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+    <div class="login-footer">
+        <div class="row">
+            <span class="col-xl-12 col-md-12 col-sm-12 col-lg-12 col-12 text-center">©2020 by TeamSE12</span>
+        </div>
+    </div>
+</div>
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
 }

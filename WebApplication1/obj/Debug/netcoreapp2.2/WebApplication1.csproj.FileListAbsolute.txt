@@ -96,3 +96,6 @@ D:\dut_project\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Are
 D:\dut_project\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
 D:\dut_project\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ExternalLogin.cshtml.g.cs
 D:\dut_project\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\LoginWith2fa.cshtml.g.cs
+D:\dut_project\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+D:\dut_project\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.cshtml.g.cs
+D:\dut_project\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
