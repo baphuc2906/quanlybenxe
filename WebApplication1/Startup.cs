@@ -10,11 +10,10 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using WebApplication1.Data;
 //using WebApplication1.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.EntityFrameworkCore.Sqlite;
+using QuanLyBenXeWebApp.Models;
 
 namespace WebApplication1
 {
@@ -37,23 +36,8 @@ namespace WebApplication1
 				options.MinimumSameSitePolicy = SameSiteMode.None;
 			});
 
-			//services.AddDbContext<ApplicationDbContext>(options =>
-			//options.UseSqlServer(
-			//	Configuration.GetConnectionString("DefaultConnection")));
-			services.AddDbContext<ApplicationDbContext>(options =>
-			options.UseSqlServer(
-				Configuration.GetConnectionString("smdb")));
-
-			services.AddDbContext<SmdbContext>(options =>
-			options.UseSqlite(
-				Configuration.GetConnectionString("smdbLite")));
-
-
-			services.AddDefaultIdentity<IdentityUser>()
-				.AddDefaultUI(UIFramework.Bootstrap4)
-				.AddEntityFrameworkStores<ApplicationDbContext>();
+			services.AddDbContext<BenXeDaNangContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 			
-
 			services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 			
 		}
@@ -77,7 +61,7 @@ namespace WebApplication1
 			app.UseStaticFiles();
 			app.UseCookiePolicy();
 
-			app.UseAuthentication();
+			//app.UseAuthentication();
 			
 
 			app.UseMvc(routes =>
