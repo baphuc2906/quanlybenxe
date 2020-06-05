@@ -13403,11 +13403,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dut_project\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "D:\\dut_project\\quanlybenxe\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "D:\\dut_project\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "D:\\dut_project\\quanlybenxe\\WebApplication1\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\dut_project\\WebApplication1\\WebApplication1\\obj\\",
+      "outputPath": "D:\\dut_project\\quanlybenxe\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

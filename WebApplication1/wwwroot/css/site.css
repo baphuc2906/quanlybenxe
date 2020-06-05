@@ -99,11 +99,17 @@ a {
     bottom: 10px;
     color: white;
 }
-
-
+.nangcao {
+    display: none;
+    -webkit-transition: all .3s linear 0s;
+    transition: all .3s linear 0s;
+}
+.shownangcao {
+    display: block;
+    -webkit-transition: all .3s linear 0s;  
+    transition: all .3s linear 0s;
+}
 /* home*/
-
-
 /* .search {
     display: flex;
     width: 100%;
@@ -116,7 +122,6 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
 } */
-
 .navbar {
     background-color: rgba(0, 0, 0, 0.7);
 }
@@ -134,10 +139,14 @@ a {
 }
 
 .label {
-    display: block;
+    display: flex;
     padding: 10px 0px;
     color: white;
     width: 50px;
+    height: 68px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-link:focus {
