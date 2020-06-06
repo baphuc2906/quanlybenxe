@@ -1,0 +1,198 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Tìm Kiếm";
+}
+    <div class="wrap" style="width:100%;">
+        <div class="wrap-admin">
+            <div class="search-block">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="search-title col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            Chào mừng đến với bến xe trung tâm TP.Đà Nẵng
+                        </h2>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                            <div class="input-group">
+                                <label for="" class="label">Từ:</label>
+                                <input type="text" class="form-control mx-auto my-auto" name="" id="" placeholder="Điểm bắt đầu" list="diembatdau">
+                                <datalist id="diembatdau">
+                                    <option value="Da Nang"></option>
+                                    <option value="Quang Nam"></option>
+                                    <option value="Gia Lai"></option>
+                                    <option value="Dong Nai"></option>
+                                </datalist>
+                            </div>
+                        </div>
+                        <div class=" col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                            <div class="input-group">
+                                <label for="" class="label">Đến:</label>
+                                <input type="text" class="form-control mx-auto my-auto" name="" id="" placeholder="Điểm dừng" list="diemketthuc">
+                                <datalist id="diemketthuc">
+                                    <option value="Da Nang"></option>
+                                    <option value="Quang Nam"></option>
+                                    <option value="Gia Lai"></option>
+                                    <option value="Dong Nai"></option>
+                                </datalist>
+                            </div>
+                        </div>
+                        <div class=" col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                            <div class="input-group">
+                                <span class="label">Ngày:</span>
+                                <input class="form-control mx-auto my-auto" type="date" required>
+                            </div>
+                        </div>
+                        <div class="nangcao col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" id="toggle">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                    <div class="input-group">
+                                        <label for="" class="label">Nhà Xe:</label>
+                                        <input type="text" class="form-control mx-auto my-auto" name="" id="" placeholder="Nhà Xe" list="nhaxe">
+                                        <datalist id="nhaxe">
+                                            <option value="Ong Phuc"></option>
+                                            <option value="Ong Tung"></option>
+                                            <option value="Ong Nghia"></option>
+                                            <option value="Ong Tho"></option>
+                                        </datalist>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                    <form action="" class="input-group">
+                                        <label for="quantity" class="label">Khoảng T/g:</label>
+                                        <input type="number" class="form-control mx-auto my-auto" id="quantity" name="quantity" min="1" max="48" step="0.5">
+                                    </form>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                    <div class="input-group">
+                                        <label for="" class="label">Nhà Xe:</label>
+                                        <input type="text" class="form-control mx-auto my-auto" name="" id="" placeholder="Loại Xe" list="loaixe">
+                                        <datalist id="loaixe">
+                                            <option value="xe 4 banh"></option>
+                                            <option value="xe 5 banh"></option>
+                                            <option value="xe 6 banh"></option>
+                                            <option value="xe 7 bánh"></option>
+                                        </datalist>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                    <form action="" class="input-group" id="money">
+                                        <label for="quantity" class="label">Giá Vé:</label>
+                                        <input type="number" class="form-control mx-auto my-auto" id="quantity" name="quantity" min="50000" max="500000" step="50000">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto mb-3">
+                            <button type="button" class="btn  d-block" style="background-color: #ffc312;width: 50%; margin:auto" id="toggle-button">
+                                <i class="fas fa-caret-down"></i> Tìm Kiếm Nâng Cao
+                            </button>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto mb-3">
+                            <button type="button" class="btn  d-block" style="background-color:#ffc312; width:50%; margin:auto">
+                                <i class="fas fa-search"></i> Tìm Kiếm
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="container">
+                <div class="row border">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <h3 class="d-sm-flex justify-content-sm-center">NX001122</h3>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-sm-flex justify-content-sm-center align-items-sm-center">
+                        <a href="#">
+                            <h6 class="d-sm-flex justify-content-sm-center align-items-sm-center">Ong Phuc</h6>
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 text-dark d-sm-flex justify-content-sm-center"><span>Tên tài xế:&nbsp;</span><a href="#">Minh</a></div>
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"><span class="d-sm-flex justify-content-sm-center">Loại xe: 4 bánh</span></div>
+                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"><span style="font-size: 13px;">Điểm đến: Quảng Nam</span></div>
+                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"><span style="font-size: 13px;">Thời gian di chuyển: 2 giờ</span></div>
+                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"><span style="font-size: 13px;">Điểm dừng: Đà Nẵng</span></div>
+                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"><span style="font-size: 13px;">Thời điểm xuất bến: 4 giờ ngày 20-05-2020</span></div>
+                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"><span style="font-size: 13px;">Thời điểm đến điểm đừng: 23 giờ ngày 20-5-2020</span></div>
+                    <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"><span style="font-size: 13px;">Giá Vé: 50000 vnd</span></div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-xl-flex justify-content-xl-end"><span style="font-size: 13px;">Số điện thoại:090909099</span></div>
+                </div>
+            </div>
+        </section>
+        <div class="promotion">
+            <div class="container">
+                <h2 class="text-uppercase font-bolder">Ưu Đãi</h2>
+                <div class="row blog">
+                    <div class="col-md-12 mx-auto">
+                        <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#blogCarousel" data-slide-to="1"></li>
+                            </ol>
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <a href="#">
+                                                <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <a href="#">
+                                                <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <a href="#">
+                                                <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <a href="#">
+                                                <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!--.row-->
+                                </div>
+                                <!--.item-->
+
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <a href="#">
+                                                <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <a href="#">
+                                                <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <a href="#">
+                                                <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <a href="#">
+                                                <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!--.row-->
+                                </div>
+                                <!--.item-->
+
+                            </div>
+                            <!--.carousel-inner-->
+                        </div>
+                        <!--.Carousel-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

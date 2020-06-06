@@ -208,3 +208,15 @@ G:\Projects\quanlybenxe\quanlybenxe\WebApplication1\obj\Debug\netcoreapp2.2\WebA
 G:\Projects\quanlybenxe\quanlybenxe\WebApplication1\obj\Debug\netcoreapp2.2\WebApplication1.pdb
 G:\Projects\quanlybenxe\quanlybenxe\WebApplication1\obj\Debug\netcoreapp2.2\WebApplication1.csproj.CopyComplete
 >>>>>>> 7d4ac9409fac758e5bb3d438cde6e4ad22af4975
+D:\dut_project\quanlybenxe\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\bus_route\Index.cshtml.g.cs
+D:\dut_project\quanlybenxe\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\Dropdown\Index.cshtml.g.cs
+D:\dut_project\quanlybenxe\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\News\Index.cshtml.g.cs
+D:\dut_project\quanlybenxe\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\Result\Index.cshtml.g.cs
+D:\dut_project\quanlybenxe\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\QTV\QTVNX.cshtml.g.cs
+D:\dut_project\quanlybenxe\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\QTV\QTVVR.cshtml.g.cs
+D:\dut_project\quanlybenxe\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\QTV\QTVBX.cshtml.g.cs
+D:\dut_project\quanlybenxe\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\QTV\ac.cshtml.g.cs
+D:\dut_project\quanlybenxe\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\QTV\Index.cshtml.g.cs
+D:\dut_project\quanlybenxe\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\QTV\QTVBX\Index.cshtml.g.cs
+D:\dut_project\quanlybenxe\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\QTV\QTVNX\Index.cshtml.g.cs
+D:\dut_project\quanlybenxe\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\QTV\QTVVR\Index.cshtml.g.cs

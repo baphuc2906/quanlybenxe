@@ -34,15 +34,15 @@
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Trang chủ</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Nhà xe
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Nhà xe Miền Bắc</a>
-                                <a class="dropdown-item" href="#">Nhà xe Miền Trung</a>
-                                <a class="dropdown-item" href="#">Nhà xe Miền Nam</a>
+                                <a class="dropdown-item" asp-area="QTV" asp-controller="QTVNX" asp-action="Index">Nhà xe Miền Bắc</a>
+                                <a class="dropdown-item" asp-area="QTV" asp-controller="QTVVR" asp-action="">Nhà xe Miền Trung</a>
+                                <a class="dropdown-item" asp-area="QTV" asp-controller="QTVBX" asp-action="">Nhà xe Miền Nam</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Nhà xe porsche 911</a>
+                                <a class="dropdown-item" asp-area="" asp-controller="" asp-action="">Nhà xe porsche 911</a>
                             </div>
                         </li>
                         @*<li class="nav-item">
